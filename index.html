@@ -15,6 +15,8 @@
         <script src="./js/accordion_ls.js" defer></script>
         <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
         <script src="./js/language.js"></script>
+        <script src="./aboutbbs.js"></script>
+        
         
         <link rel="stylesheet" href="./normalize.css">
         <link rel="stylesheet" href="./estilos.css">
@@ -62,33 +64,34 @@
                 <section class="textos-header">
                     <h1 class="textos-headerh1">CREA, DESARROLLA, CONSOLIDA, INNOVA.</h1>
                     <h2 class="textos-headerh2">Construye Soluciones de Negocios</h2>
-                    <br>
+                    
                     <p class="textos-headerp">Consultoría, asesoría, y tecnología de información para la gestión y desarrollo integral de tu negocio</p>
-                    <p></p>
-                    <p></p>
-                    <div class="bbs-conocemas">
-                        <a href="" class="conocemas">Conoce más...</a>
-                        <div class="overlay">
-                            <div class="acercade">
-                                <h4 class="acercadeh4">Acerca de BBS</h4>
-                                <br><p class="acercadep1">BBS® es una empresa Mexicana, ubicada en la Ciudad de México, constituida en 2012 por socios con más de 20 años de experiencia en diferentes sectores e industrias, tanto en asesoria para la gestión de procesos de negocios como en la implementación de soluciones de gestión empresarial de clase mundial (ERP, CRM y BI), en empresas de México y del extranjero.</p>
-                                <br><p class="acercadep2">Estas soluciones permiten a nuestros clientes administrar sus organizaciones de manera eficiente e integral, abarcando tanto las áreas de direccíón, a través de la inteligencia de negocios, como las áreas financieras, administrativas y operativas y administrativas de la empresa, tales como la gestión de la cadena de suministros, ventas y marketing, finanzas, manufactura, servicios y la gestión y ejecución de proyectos.</p>
-                            </div>
-                            <div class="mision">
-                                <h4 class="valorh4">Nuestra propuesta de valor</h4>
-                                <br><p class="valorp">En BBS ofrecemos soluciones y herramientas de gestión de información y de toma de deciciones para mejorar el enfoque, la dirección y el crecimiento del negocio de nuestros clientes, tomando como referencia estándares, normas y metodologías vanguardistas avaladas por organismos e instituciones de clase mundial.</p>
-                                <br>
-                                <br><h4 class="misionh4">Nuestra misión</h4>
-                                <br><p class="misionp">Ayudar a las empresas a consolidar, crecer y desarrollar sus Negocios, mediante la implementación de soluciones vanguardistas, innovadoras, y apegadas a las mejores prácticas de negocios.</p>    
-                                <br>
-                            </div>
-                            <img src="./BBS_trnsp.png" opacity="15%" id="bbs-overlay" alt="">
-                            
-                        </div>
-                    </div>
+                    <a href="#" id="conoce" class="conocemas">A cerca de BBS</a>
+                
                 </section>
-                <img src="./BBS_trnsp.png" alt="">
+                <!--img src="./BBS_trnsp.png" alt=""-->
+                <img src="./bbs_5_transp.png" alt="">
+                <div class="bbs-conocemas">
+                   
+                </div>
             </section>
+            <div class="overlay ocultar">
+                <div class="acercade">
+                    <h4 class="acercadeh4">Acerca de BBS</h4>
+                    <br><p class="acercadep1">BBS® es una empresa Mexicana, ubicada en la Ciudad de México, constituida en 2012 por socios con más de 20 años de experiencia en diferentes sectores e industrias, tanto en asesoria para la gestión de procesos de negocios como en la implementación de soluciones de gestión empresarial de clase mundial (ERP, CRM y BI), en empresas de México y del extranjero.</p>
+                    <br><p class="acercadep2">Estas soluciones permiten a nuestros clientes administrar sus organizaciones de manera eficiente e integral, abarcando tanto las áreas de direccíón, a través de la inteligencia de negocios, como las áreas financieras, administrativas y operativas y administrativas de la empresa, tales como la gestión de la cadena de suministros, ventas y marketing, finanzas, manufactura, servicios y la gestión y ejecución de proyectos.</p>
+                </div>
+                <div class="mision">
+                    <h4 class="valorh4">Nuestra propuesta de valor</h4>
+                    <br><p class="valorp">En BBS ofrecemos soluciones y herramientas de gestión de información y de toma de deciciones para mejorar el enfoque, la dirección y el crecimiento del negocio de nuestros clientes, tomando como referencia estándares, normas y metodologías vanguardistas avaladas por organismos e instituciones de clase mundial.</p>
+                    <br>
+                    <br><h4 class="misionh4">Nuestra misión</h4>
+                    <br><p class="misionp">Ayudar a las empresas a consolidar, crecer y desarrollar sus Negocios, mediante la implementación de soluciones vanguardistas, innovadoras, y apegadas a las mejores prácticas de negocios.</p>    
+                    <br>
+                </div>
+                <img src="./BBS_trnsp.png" opacity="15%" id="bbs-overlay" alt="">
+                
+            </div>
 
             <!--div class="title">
                 <h1>>   integra<br><span>business management consulting</span></h1>
@@ -108,7 +111,7 @@
             <section id="homecontent">
                 <div class="homecontent-textos container">
                     <!--h2>Servicios</h2-->
-                    <span id="srv1"><h2>SERVICIOS</h2></span>
+                    <span id="srv1"><h2>Portafolio de Servicios</h2></span>
                 </div>
             
                 <div class="circle-box container">
@@ -122,14 +125,21 @@
                     <div class="menu-srv" id="svgCircle">
                         <!--span id="srv1"><h2>SERVICIOS</h2></span-->
                         <!--span id="srvs"></span-->
-                        <span id="srv2"><i class="fa fa-user-plus" aria-hidden="true"></i><h1>Asesoria & Consultoria</h1></span>
-                        <span id="srv3"><i class="fa fa-spinner" aria-hidden="true"></i><h1>MS Dynamics 365</h1></span>
-                        <span id="srv4"><i class="fa fa-book" aria-hidden="true"></i><h1>Capacitación y Soporte</h1></span>
-                        <span id="srv5"><i class="fa fa-life-ring" aria-hidden="true"></i><h1>Project Management</h1></span>
-                        <span id="srv6"><i class="fa fa-code" aria-hidden="true"></i><h1>Diseño & Desarrollo de Soluciones</h1></span>
-                        <span id="srv7"><i class="fa fa-cogs" aria-hidden="true"></i><h1>Reingeniería de Procesos</h1></span>
-                        <span id="srv8"><i class="fa fa-street-view" aria-hidden="true"></i><h1>Planeación Estratégica</h1></span>
-                        <span id="srv9"><i class="fa fa-industry" aria-hidden="true"></i><h1>Micro & Pequeña Empresa</h1></span>
+                        <div class="menu-srva">
+                                <span id="srv2"><i class="fa fa-user-plus" aria-hidden="true"></i><h1>Asesoria & Consultoria</h1></span>
+                                <span id="srv3"><i class="fa fa-spinner" aria-hidden="true"></i><h1>MS Dynamics 365</h1></span>
+                                <span id="srv4"><i class="fa fa-book" aria-hidden="true"></i><h1>Capacitación y Soporte</h1></span>
+                                <span id="srv5"><i class="fa fa-life-ring" aria-hidden="true"></i><h1>Project Management</h1></span>    
+                                
+                        </div>
+                        <div class="menu-srvb">
+                                <span id="srv6"><i class="fa fa-code" aria-hidden="true"></i><h1>Diseño & Desarrollo de Soluciones</h1></span>
+                                <span id="srv7"><i class="fa fa-cogs" aria-hidden="true"></i><h1>Reingeniería de Procesos</h1></span>
+                                <span id="srv8"><i class="fa fa-street-view" aria-hidden="true"></i><h1>Planeación Estratégica</h1></span>
+                                <span id="srv9"><i class="fa fa-industry" aria-hidden="true"></i><h1>Micro & Pequeña Empresa</h1></span>
+                            
+                        </div>
+                        
                         
                     </div>
         
@@ -362,7 +372,7 @@
         <section class="sge" id="solutions">
             <section class="sge-contenedor container">
                 <div class="sge-header">
-                    <h2 class="sge-f-header">SOLUCIONES PARA LA GESTIÓN DE NEGOCIOS</h2>
+                    <h2 class="sge-f-header">Tecnología para la Gestión de Negocios</h2>
                     <!--p>Ya sea que piensas iniciar tu negocio, o si ya estas operando, te proporcionamos asesoria para la definir y completar tu plan de negocios o </p-->
                 </div>
 
@@ -899,10 +909,15 @@
                     
                             <div class="sge-action-buttons">
                                 <button class="down-button">
-                                    <i class="fas fa-arrow-down"></i>
+                                    <!--i class="fas fa-arrow-down"></i-->
+                                    <i class="fas fa-angle-down"></i>
+                                    <!--p class="boton"><</p-->
                                 </button>
                                 <button class="up-button">
-                                    <i class="fas fa-arrow-up"></i>
+                                    <!--i class="fas fa-arrow-up"></i-->
+                                    <i class="fas fa-angle-up"></i>
+                                    
+                                    <!--p class="boton">></p-->
                                 </button>
                             </div>
                         </div>                
@@ -1260,7 +1275,7 @@
             <!--div class="contact-l"></div-->
             <div class="forma-contacto">
                 <div class="contact-header">
-                    <h2>Escríbenos o solicita una demo:</h2>
+                    <h2>ESCRÍBENOS Y SOLICITA UNA DEMO</h2>
                     <!--h3><span>|></span> .BBS®</h3><h2>Escríbenos o solicita una demo:</h2-->
                 </div>
                 <div class="forma-footer">
@@ -1412,7 +1427,8 @@
         <script src="../accordion_ls.js"></script>
         <script src="./language.js"></script>
         <script src="./Draft_4/js/language.js"></script>
-
+        <script src="./aboutbbs.js" defer></script>
+        
 
         
         <script>
