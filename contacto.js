@@ -23,14 +23,14 @@ function submitForm(e) {
 
 function sendEmail(name, email, phone, message, subject, sector) {
     Email.send({
-    //Host : "mail.bbsbys.com",
-    Host : "smtp.elasticemail.com",
-    Username : "integrabmc@gmail.com",
-    Password : "C3352ED514EDF3ABA768C822E49F4C6479AD",
-    //Username : "comercial@bbsbys.com",
-    //Password : "R-Hb0{t2oX",
+    Host : "mail.bbsbys.com",
+    /*Host : "smtp.elasticemail.com",
+    /*Username : "integrabmc@gmail.com",
+    /*Password : "C3352ED514EDF3ABA768C822E49F4C6479AD",*/
+    Username : "valeria.garcia@bbsbys.com",
+    Password : "M4il88$Comercial",
     To : 'comercial@bbsbys.com',
-    From : "integrabmc@gmail.com",
+    From : "valeria.garcia@bbsbys.com",
     Subject : "Contacto Página WEB Contacto 2",
     Body: `Name: ${name} <br/> Email: ${email} <br/> phone: ${phone} <br/> Asunto: ${subject} <br/> Empresa - Sector: ${sector} <br/> Message: ${message}`
     
