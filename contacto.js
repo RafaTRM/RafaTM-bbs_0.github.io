@@ -23,7 +23,7 @@ function submitForm(e) {
 
 function sendEmail(name, email, phone, message, subject, sector) {
     Email.send({
-    Host : "mail.bbsbys.com",
+    Host : "smtp.bbsbys.com",
     /*Host : "smtp.elasticemail.com",
     /*Username : "integrabmc@gmail.com",
     /*Password : "C3352ED514EDF3ABA768C822E49F4C6479AD",*/
